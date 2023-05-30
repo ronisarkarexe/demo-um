@@ -5,7 +5,7 @@ import cors from 'cors'
 const app: Application = express()
 
 // cors
-          app.use(cors())
+app.use(cors())
 
 // parser
 app.use(express.json())
